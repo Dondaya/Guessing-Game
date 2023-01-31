@@ -80,6 +80,6 @@ class GameState extends State<GameWidget> {
         ),
       ),
     );
-  } 
+  }
   
 }
