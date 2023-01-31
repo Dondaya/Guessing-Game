@@ -1,6 +1,6 @@
 // ignore_for_file: constant_identifier_names
 
-import 'dart:math';
+// import 'dart:math';
 
 class Game {
   static const int min = 0;
@@ -13,7 +13,8 @@ class Game {
 
   Game() {
     _currentMove = 0;
-    _guessedNumber = Random().nextInt(max);
+    _guessedNumber = 1;
+    // Random().nextInt(max);
   }
 
   Result nextMove(int userInput) {
